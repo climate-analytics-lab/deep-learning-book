@@ -11,14 +11,10 @@ chapters:
     sections: 
       - file: 01_intro/overview.ipynb
         title: Overview of the course
-      - file: 01_intro/review_ML.ipynb
-        title: Review of basic ML concepts
-      - file: 01_intro/data_preprocessing.ipynb
-        title: Data pre-processing 
+      - file: 01_intro/data_collection_and_prep.ipynb
+        title: Data Collection and Prep
       - file: 01_intro/feature_engineering.ipynb
         title: Feature Engineering
-      - file: 01_intro/deep_learning.ipynb
-        title: Introducing Deep Learning
   - file: 02_regression/introduction.md
     title: Supervised Learning - Regression
     sections:
@@ -41,45 +37,27 @@ chapters:
   - file: 03_classification/introduction.md
     title: Supervised Learning - Classification
     sections:
-      - file: 03_classification/cnns_for_classification.ipynb
-        title: Using CNNs for classification
-      - file: 03_classification/training_cnns.ipynb
-        title: Practical Issues Training CNNs
-      - file: 03_classification/plankton_classification.ipynb
-        title: Plankton Classification
-      - file: 03_classification/plankton_exercise.ipynb
-        title: (Exercises) Plankton Classification
+      - file: 03_classification/cnn_classification.ipynb
+        title: CNNs for classification
   - file: 04_detection/introduction.md
     title: Supervised Learning - Object Detection
     sections:
-      - file: 04_detection/cnns_for_detection.ipynb
-        title: Using CNNs for Object Detection
-      - file: 04_detection/acoustic_detection.ipynb
-        title: Acoustic Detection
-      - file: 04_detection/acoustic_exercise.ipynb
-        title: (Exercises) Acoustic Detection
-  - file: 05_soms/introduction.md
-    title: Unsupervised Learning - Self Organizing Maps
+      - file: 04_detection/object_detection.ipynb
+        title: Object Detection
+  - file: 05_pinns/introduction.md
+    title: Physics Informed Neural Networks
     sections:
-      - file: 05_soms/unsupervised_learning.ipynb
-        title: Unsupervised Learning for Clustering and Dimensionality Reduction
-      - file: 05_soms/self_organizing_maps.ipynb
-        title: Introducing Self Organizing Maps
-      - file: 05_soms/soms_river_basin.ipynb
-        title: Applying SOMs to stream modification patterns
-  - file: 06_embedding/introduction.md
-    title: Unsupervised Learning - Learning Latent Models
+      - file: 05_pinns/physics_informed_NNs.ipynb
+        title: Physics Informed Neural Networks
+  - file: 06_unsupervised_learning/introduction.md
+    title: Unsupervised Learning
     sections:
-      - file: 06_embedding/latent_spaces.ipynb
-        title: Latent (embedding) Spaces
-      - file: 06_embedding/autoencoders.ipynb
-        title: Variational Auto-Encoders
-      - file: 06_embedding/tile_to_vec.ipynb
-        title: Tile2Vec
-      - file: 06_embedding/satellite_image_clustering.ipynb
-        title: Clustering Satellite Images
-      - file: 06_embedding/satellite_image_clustering_exercise.ipynb
-        title: (Exercises) Clustering Satellite Images
+      - file: 06_unsupervised_learning/clustering.ipynb
+        title: Clustering
+      - file: 06_unsupervised_learning/dimensionality_reduction.ipynb
+        title: Dimensionality Reduction
+      - file: 06_unsupervised_learning/contrastive_learning.ipynb
+        title: Contrastive learning
   - file: 07_advanced/introduction.md
     title: Advanced Topics
     sections:

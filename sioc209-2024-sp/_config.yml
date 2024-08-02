@@ -6,7 +6,7 @@
 #######################################################################################
 # Book settings
 title                       : Deep Learning for Geo and Environmental Science  # The title of the book. Will be placed in the left navbar.
-author                      : Duncan Watson-Parris, Xuanting Hao and Daniel McCoy # The author of the book
+author                      : Duncan Watson-Parris # The author of the book
 copyright                   : "2024"  # Copyright year to be placed in the footer
 logo                        : logo_2.png  # A path to the book logo
 
@@ -28,7 +28,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/climate-analytics-lab/sioc209-2024-sp  # Online location of your book
+  url: https://github.com/climate-analytics-lab/deep-learning-book  # Online location of your book
   path_to_book: docs  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
