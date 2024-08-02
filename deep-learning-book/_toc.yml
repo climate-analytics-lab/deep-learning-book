@@ -67,8 +67,3 @@ chapters:
         title: Large Language Models
       - file: 07_advanced/why_does_it_work.ipynb
         title: Why does Deep Learning Work?!
-  - file: 08_project/introduction.md
-    title: Final Project
-    sections:
-      - file: 08_project/project.ipynb
-        title: Final Projects
